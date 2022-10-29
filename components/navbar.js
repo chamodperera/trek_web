@@ -33,14 +33,14 @@ const NavBar = () => {
             </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
-            <Nav className="justify-content-center flex-grow-1 pe-3" variant='pills' defaultActiveKey="#action1">
-              <Nav.Link href="#action1" >Home</Nav.Link>
+            <Nav className="justify-content-center flex-grow-1 pe-3 text-center" variant='pills' defaultActiveKey="#action1">
+              <Nav.Link href="#action1">Home</Nav.Link>
               <Nav.Link href="#action2">About Us</Nav.Link>
               <Nav.Link href="#action3">Services</Nav.Link>
               <Nav.Link href="#action4">Our work</Nav.Link>
             </Nav>
             <hr/>
-            <Nav className="justify-content-end  pe-3" variant='pills' defaultActiveKey="#action1">
+            <Nav className="justify-content-end  pe-3 text-center" variant='pills' defaultActiveKey="#action1">
               <Nav.Link href="#action5">Contact Us</Nav.Link>
             </Nav>
             
