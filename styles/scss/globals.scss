@@ -11,6 +11,7 @@ body {
 * {
   box-sizing: border-box;
   font-family: 'DM Sans', sans-serif;
+  color: #333333;
 }
 
 
@@ -36,6 +37,5 @@ $navbar-nav-link-padding-x:1.5em;
 $navbar-light-color:map-get($theme-colors, "dark-1");
 $nav-pills-link-active-bg: map-get($theme-colors, "trek");
 $navbar-light-active-color:map-get($theme-colors, "white");
-
 
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
